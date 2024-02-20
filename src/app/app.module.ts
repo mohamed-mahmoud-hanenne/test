@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TaskrouteComponent } from './taskroute/taskroute.component';
+import { TableComponent } from './table/table.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TaskrouteComponent,
+    TableComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
