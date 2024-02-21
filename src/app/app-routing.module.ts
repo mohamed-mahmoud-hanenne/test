@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { TaskrouteComponent } from './taskroute/taskroute.component';
 import { TableComponent } from './table/table.component';
 import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,11 @@ const routes: Routes = [
   {
     path:'contact',
     component:ContactComponent
+  },
+
+  {
+    path:'about',
+    component:AboutComponent
   }
 ];
 
